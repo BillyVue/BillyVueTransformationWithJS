@@ -6,6 +6,11 @@
 #firstwrapper{
     width: 100%;
     height: 1000px;
+    background-image: url(../images/lvl1.jpeg);
+    background-image: url(../images/lvl2.jpg);
+    background-image: url(../images/lvl3.jpg);
+    background-image: url(../images/lvl4.jpeg);
+    background-image: url(../images/lvl5.jpeg);
     background-image: url(../images/sunset.jpg);
     background-repeat: no-repeat;
     background-size: 100% 150%;
