@@ -42,7 +42,7 @@ function changeOne() {
 
 function changeTwo(){
     document.getElementById("speech").innerHTML = "Calm down, we have barely breached the surface of the water. Here, there is still a lot of light and even the scuba divers can reside here. See, there's our crew member Bob. Your current depth is 30 meters.";
-    document.getElementById("firstwrapper").style.backgroundImage = "url(BillyVueTransformatio/images/lvl1.jpeg)";
+    document.getElementById("firstwrapper").style.backgroundImage = "url(../images/lvl1.jpeg)";
     document.getElementById("firstwrapper").style.backgroundSize = "none";
     document.getElementById("titletext").style.display = "none";
     document.getElementById("pic1").style.display = "none";
@@ -67,7 +67,7 @@ function changeFour(){
 
 function changeFive(){
     document.getElementById("speech").innerHTML = "Darker isn't it? Well that's because we have entered the Twilight Zone. Sunlight begins to start having a hard time penetrating this deep into the water. Despite that, many sharks and other marinelife still live at these depths. Your current depth is 200 meters";
-    document.getElementById("firstwrapper").style.backgroundImage = "url(images/lvl2.jpg)";
+    document.getElementById("firstwrapper").style.backgroundImage = "url(../images/lvl2.jpg)";
     document.getElementById("pic2").style.display = "none";
     document.getElementById("pic3").style.display = "block";
     document.getElementById("button5").style.display = "none";
@@ -82,7 +82,7 @@ function changeSix(){
 
 function changeSeven(){
     document.getElementById("speech").innerHTML = "Hear that? Yeah neither do I. It's absolutely silent down here. This is what's called the Midnight Zone. No more sunlight is visible at all, and only a select few species of marinelife live at these depths. See, look at that Sperm Whale. You and I could never live here, but these are its hunting grounds. Your current depth is 1000 meters";
-    document.getElementById("firstwrapper").style.backgroundImage = "url(images/lvl3.jpg)";
+    document.getElementById("firstwrapper").style.backgroundImage = "url(../images/lvl3.jpg)";
     document.getElementById("pic3").style.display = "none";
     document.getElementById("pic4").style.display = "block";
     document.getElementById("button7").style.display = "none";
@@ -97,7 +97,7 @@ function changeEight(){
 
 function changeNine(){
     document.getElementById("speech").innerHTML = "Yep, that's the famous Titanic. She's a beauty isn't she? Tragic, but many lessons learnt. It sits in its solitude at our depth of 3800 meters. Care to continue? Lets do it.";
-    document.getElementById("firstwrapper").style.backgroundImage = "url(images/lvl4.jpeg)";
+    document.getElementById("firstwrapper").style.backgroundImage = "url(../images/lvl4.jpeg)";
     document.getElementById("firstwrapper").style.backgroundSize = " 150% 100%";
     document.getElementById("pic4").style.display = "none";
     document.getElementById("pic5").style.display = "block";
@@ -107,7 +107,7 @@ function changeNine(){
 
 function changeTen(){
     document.getElementById("speech").innerHTML = "Oh? See that? It's an anglerfish. It's so dark now that the fish have their own way of making light. This signals our stopping point. We shouldn't push it since you're only a beginner. Lets go back to the surface";
-    document.getElementById("firstwrapper").style.backgroundImage = "url(images/lvl5.jpeg)";
+    document.getElementById("firstwrapper").style.backgroundImage = "url(../images/lvl5.jpeg)";
     document.getElementById("pic5").style.display = "none";
     document.getElementById("pic6").style.display = "block";
     document.getElementById("button10").style.display = "none";
@@ -116,7 +116,7 @@ function changeTen(){
 
 function changeEleven(){
     document.getElementById("speech").innerHTML = "You did well for yourself out there Young One. This will be good for your experience going forward. Go rest and we'll debrief once you come to. I'm proud of you.";
-    document.getElementById("firstwrapper").style.backgroundImage = "url(images/end.jpeg)";
+    document.getElementById("firstwrapper").style.backgroundImage = "url(../images/end.jpeg)";
     document.getElementById("firstwrapper").style.backgroundPosition = "top";
     document.getElementById("pic6").style.display = "none";
     document.getElementById("pic1").style.display = "block";
