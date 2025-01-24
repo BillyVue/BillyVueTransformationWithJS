@@ -42,7 +42,7 @@ function changeOne() {
 
 function changeTwo(){
     document.getElementById("speech").innerHTML = "Calm down, we have barely breached the surface of the water. Here, there is still a lot of light and even the scuba divers can reside here. See, there's our crew member Bob. Your current depth is 30 meters.";
-    document.getElementById("firstwrapper").style.backgroundImage = "url(images/lvl1.jpeg)";
+    document.getElementById("firstwrapper").style.backgroundImage = "url(/images/lvl1.jpeg)";
     document.getElementById("firstwrapper").style.backgroundSize = "none";
     document.getElementById("titletext").style.display = "none";
     document.getElementById("pic1").style.display = "none";
