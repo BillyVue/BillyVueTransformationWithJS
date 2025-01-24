@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transformation With JS</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <div id="firstwrapper">
+    <!--<div id="sunset">
+            <div id="sun">
+                <h1>
+                    Transformation with JS
+                </h1>
+            </div>
+        </div>
+        <div id="ocean">
+            <p>
+                You are Scuba Diving deep in the ocean alone. Your depth is 0 feet. The Sun beams down upon you as you thread water. Click to begin your journey.
+            </p>
+            <button onclick="myFunction()">
+                Dive Deeper
+            </button>
+        </div>-->
+        <!--
+        <div id="lvl1">
+            <h1>
+                Transformation with JS
+            </h1>
+            <p>
+                You stand on the boat looking over the sunset before stepping into the submarine and closing the door behind you. The boat slowly lets you down into the water to set off on your journey.
+            </p>
+            <p>
+                DEPTH: 0 Meters
+            </p>
+            <button onclick="myFunction()">
+                Start Your Journey
+            </button>
+        </div>
+        <div id="lvl2">
+            <h1>
+                Sunlight Zone
+            </h1>
+            <p>
+                You have started your journey and reached the depth of many marine life, as well as the depth of many recreational divers. The sun still shines through the water at this level.
+            </p>
+            <p>
+                Depth: 30 meters
+            </p>
+            <button onclick="myLevel2()">
+                Dive Deeper
+            </button>
+        </div>
+        <div id="lvl3">
+            <h1>
+                Sunlight/Twilight Zone
+            </h1>
+            <p>
+                You begin to descend to depths that exceed the human limit. Most highly experienced divers only reach depths of a little under 100 meters at the most. This is the end of the sunlight zone and the beginning of the twilight zone. As you descend further, the sunlight will only penetrate less and less.
+            </p>
+            <p>
+                DEPTH: 200 meters
+            </p>
+            <button onclick="myLevel3()">
+                Dare to go further...?
+            </button>
+        </div>
+        <div id="lvl4">
+            <h1>
+                Twilight Zone
+            </h1>
+            <p>
+                You are fully emersed into the Twilight Zone now. There is still a lot of marinelife all around you. Slowly but surely, any remnants of sunlight fades into darkness. 
+            </p>
+            <p>
+                DEPTH: 600 meters
+            </p>
+            <button onclick="myLevel4()">
+                Dare to go further...?
+            </button>
+        </div>
+        <div id="lvl5">
+            <h1>
+                Twilight/Midnight Zone
+            </h1>
+            <p>
+                Your smile slowly fades as you realize that there is no more sunlight. If you thought the Twilight Zone was dark, then you're in for a treat. You begin to descend further than the Twilight Zone and make it into the Midnight Zone, where normal marinelife as we know it ceases to exist. Instead, most of the organisms down here have some sort of bioluminescence. This is the depth at where Sperm Whales hunt Giant Squid.
+            </p>
+            <p>
+                DEPTH: 1000 meters
+            </p>
+            <button onclick="myLevel5()">
+                Dare to go further...?
+            </button>
+        </div>
+        <div id="lvl6">
+            <h1>
+                Sunlight/Twilight Zone
+            </h1>
+            <p>
+                You begin to descend to depths that exceed the human limit. Most highly experienced divers only reach depths of a little under 100 meters at the most. This is the end of the sunlight zone and the beginning of the twilight zone. As you descend further, the sunlight will only penetrate less and less.
+            </p>
+            <p>
+                DEPTH: 200 meters
+            </p>
+            <button onclick="myLevel6()">
+                Dare to go further...?
+            </button>
+        </div>
+        <div id="lvl7">
+            <h1>
+                Sunlight/Twilight Zone
+            </h1>
+            <p>
+                You begin to descend to depths that exceed the human limit. Most highly experienced divers only reach depths of a little under 100 meters at the most. This is the end of the sunlight zone and the beginning of the twilight zone. As you descend further, the sunlight will only penetrate less and less.
+            </p>
+            <p>
+                DEPTH: 200 meters
+            </p>
+            <button onlick="myLevel3()">
+                Dare to go further...?
+            </button>
+        </div>
+        -->
+        <div id="titletext">
+            Transformation with JS
+        </div>
+        <div id="imagewrapper">
+            <img id="pic1" src="images/captain-removebg-preview.png" alt="The Captain of the Ship" height="700px">
+            <img id="pic2" src="images/scuba-removebg-preview.png" alt="Scuba Diver Bob" height="700px">
+            <img id="pic3" src="images/shark-removebg-preview.png" alt="A shark stares at you as you venture further into the depths of the ocean" height="700px">
+            <img id="pic4" src="images/sperm_whale-removebg-preview.png" alt="Scuba Diver Bob" height="700px">
+            <img id="pic5" src="images/titanic-removebg-preview.png" alt="Scuba Diver Bob" height="500px">
+            <img id="pic6" src="images/anglerfish-removebg-preview.png" alt="Scuba Diver Bob" height="500px">
+
+        </div>
+        <div id="textwrapper">
+            <div id="name">
+                Captain
+            </div>
+            <div id="speech">
+                Hello, I'll be your captain and guiding voice throughout the trip. Your mission is to descend to the deepest depths of the ocean and gain experience and intel on the various life that resides in what we know as the deep blue sea.
+            </div>
+            <div id="arrow">
+                <button id="button1" onclick="changeOne()">
+                    - - - - >
+                </button>
+                <button id="button2" onclick="changeTwo()">
+                    - - - - >
+                </button>
+                <button id="button3" onclick="changeThree()">
+                    - - - - >
+                </button>
+                <button id="button4" onclick="changeFour()">
+                    - - - - >
+                </button>
+                <button id="button5" onclick="changeFive()">
+                    - - - - >
+                </button>
+                <button id="button6" onclick="changeSix()">
+                    - - - - >
+                </button>
+                <button id="button7" onclick="changeSeven()">
+                    - - - - >
+                </button>
+                <button id="button8" onclick="changeEight()">
+                    - - - - >
+                </button>
+                <button id="button9" onclick="changeNine()">
+                    - - - - >
+                </button>
+                <button id="button10" onclick="changeTen()">
+                    - - - - >
+                </button>
+                <button id="button11" onclick="changeEleven()">
+                    - - - - >
+                </button>
+                <button id="button12" onclick="changeTwelve()">
+                    - - - - >
+                </button>
+            </div>
+        </div>
+    </div>  
+</body>
+</html>
