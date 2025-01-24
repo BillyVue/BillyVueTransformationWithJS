@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+#firstwrapper{
+    width: 100%;
+    height: 1000px;
+    background-image: url(/images/sunset.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 150%;
+    background-position: bottom;
+}
+
+#titletext{
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    padding-top: 5%;
+}
+
+#imgwrapper{
+    width: 100%;
+    height: 200px;
+}
+img{
+    margin: 0 auto;
+    display: block;
+    overflow: hidden;
+}
+#pic1{
+    display: block;
+}
+#pic2, #pic3, #pic4, #pic5, #pic6{
+    display: none;
+}
+#textwrapper{
+    width: 80%;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 500px;
+    left: 10%;
+}
+#name{
+    width: 80%;
+    height: 20%;
+    margin: 0 auto;
+    padding-top: 2%;
+    color: white;
+    font-size: 30px;
+}
+#speech{
+    width: 80%;
+    height: 60%;
+    margin: 0 auto;
+    padding-top: 2%;
+    font-size: 25px;
+    color: white;
+}
+#arrow{
+    width: 20%;
+    height: 20%;
+    margin: 0 0 0 80%;
+    padding-bottom: 2%;
+    font-size: 25px;
+    color: white;
+}
+#button1{ 
+    text-decoration: none;
+    background-color: transparent;
+    display: inline-block;
+    color: white;
+    border: none;
+    height: 100%;
+    width: 50%;
+    margin: 0 auto;
+}
+#button2, #button3, #button4, #button5, #button6, #button7, #button8, #button9, #button10, #button11, #button12{
+    text-decoration: none;
+    background-color: transparent;
+    display: none;
+    color: white;
+    border: none;
+    height: 100%;
+    width: 50%;
+    margin: 0 auto;
+}
+
+#button1:hover, #button2:hover, #button3:hover, #button4:hover, #button5:hover, #button6:hover, #button7:hover, #button8:hover, #button9:hover, #button10:hover, #button11:hover, #button12:hover{
+    cursor: pointer;
+}
+
+
+/*
+#lvl1{
+    width: 60%;
+    height: 500px;
+    margin: 0 auto;
+}
+h1{
+    text-align: center;
+    padding-top: 10%;
+}
+#sun{
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    background: #ede4af;
+    border-radius: 50%;
+}
+#sunset{
+    width: 100%;
+    height: 600px;
+    background-image: linear-gradient(#c1c4de, #bf9fa7);
+}
+#ocean{
+    width: 100%;
+    height: 400px;
+    background: blue;
+}
+
+#lvl1{
+    width: 100%;
+    height: 1000px;
+}
+#lvl2, #lvl3, #lvl4, #lvl5, #lvl6, #lvl7{
+    width: 100%;
+    height: 1000px;
+    display: none;
+}
+*/
